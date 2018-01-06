@@ -1,0 +1,1623 @@
+﻿
+ExeStack:
+System.Collections.Generic.Stack`1[Interpreter.Model.IStmt]
+-----------------------
+
+SymTable:
+System.Collections.Generic.Dictionary`2[System.String,System.Int32]
+------------------------
+Out:
+System.Collections.Generic.List`1[System.Int32]
+------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+System.Collections.Generic.Stack`1[Interpreter.Model.IStmt]
+-----------------------
+
+SymTable:
+System.Collections.Generic.Dictionary`2[System.String,System.Int32]
+------------------------
+Out:
+System.Collections.Generic.List`1[System.Int32]
+------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+System.Collections.Generic.Stack`1[Interpreter.Model.IStmt]
+-----------------------
+
+SymTable:
+System.Collections.Generic.Dictionary`2[System.String,System.Int32]
+------------------------
+Out:
+System.Collections.Generic.List`1[System.Int32]
+------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ Interpreter.Model.AssignStmtInterpreter.Model.PrintStmt
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ Interpreter.Model.PrintStmt
+-----------------------
+
+SymTable:
+v=2
+
+------------------------
+Out:
+ 
+------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+v=2
+
+------------------------
+Out:
+ 
+------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ v = 2print (v)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ print (v)
+-----------------------
+
+SymTable:
+v=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+v=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ v = 2print (v)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ print (v)
+-----------------------
+
+SymTable:
+v=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+v=2
+
+------------------------
+Out:
+ 2
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) ; var_fread file (var_c))(var_f+2read file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt)var_fread file (var_c)(var_f+2read file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_f+2read file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_f+2read file (var_x)close file :var_f)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) ; var_fread file (var_c))(var_f+2read file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt)var_fread file (var_c)(var_f+2read file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_f+2read file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_f+2read file (var_x)close file :var_f)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) ; var_fread file (var_c))(var_fread file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt)var_fread file (var_c)(var_fread file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_fread file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_fread file (var_x)close file :var_f)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) ; var_fread file (var_c))(var_fread file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt)var_fread file (var_c)(var_fread file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) ; var_fread file (var_c))(var_fread file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_fopen File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt)var_fread file (var_c)(var_fread file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (var_fread file (var_x) ; close file :var_f))
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ var_fread file (var_x)close file :var_f)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+ ; read file (var_c) 
+)(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_x) 
+close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+ ; read file (var_c) 
+)(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_x) 
+close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+ ; read file (var_c) 
+)(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_x) 
+close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+ ; read file (var_c) 
+)(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_x) 
+close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+0=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+ ; read file (var_c) 
+)(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_x) 
+close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+ ; read file (var_c) 
+)(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+var_c=5
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_x) 
+close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+var_c=5
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+var_c=5
+var_x=6
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+var_c=5
+var_x=6
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+ ; read file (var_c) 
+)(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ open File (D:/Programming/C,C++/Interpreter/Interpreter/text1.txt) having variable var_f
+read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_c) 
+(read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ (read file (var_x) 
+ ; close file :var_f) 
+)
+-----------------------
+
+SymTable:
+var_f=1
+var_c=5
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ read file (var_x) 
+close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+var_c=5
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ close file :var_f) 
+
+-----------------------
+
+SymTable:
+var_f=1
+var_c=5
+var_x=6
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1=(D:/Programming/C,C++/Interpreter/Interpreter/text1.txt, System.IO.StreamReader)
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+var_f=1
+var_c=5
+var_x=6
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ v = 2print (v)
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ print (v)
+-----------------------
+
+SymTable:
+v=2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+
+
+ExeStack:
+ 
+-----------------------
+
+SymTable:
+v=2
+
+------------------------
+Out:
+ 2
+------------------------
+FileTable:
+
+-----------------------------
+
+
+----------------------------------------------------------
+

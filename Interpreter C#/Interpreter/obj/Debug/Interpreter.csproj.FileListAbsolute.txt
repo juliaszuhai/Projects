@@ -1,0 +1,6 @@
+D:\Programming\C,C++\Interpreter\Interpreter\bin\Debug\Interpreter.exe.config
+D:\Programming\C,C++\Interpreter\Interpreter\bin\Debug\Interpreter.exe
+D:\Programming\C,C++\Interpreter\Interpreter\bin\Debug\Interpreter.pdb
+D:\Programming\C,C++\Interpreter\Interpreter\obj\Debug\Interpreter.csprojResolveAssemblyReference.cache
+D:\Programming\C,C++\Interpreter\Interpreter\obj\Debug\Interpreter.exe
+D:\Programming\C,C++\Interpreter\Interpreter\obj\Debug\Interpreter.pdb
