@@ -1,0 +1,9 @@
+%subs(L-list,E-elem,S-substitute,R)
+%subs(i,i,i,o)
+subs([],_,_,[]).
+subs([H|T],E,S,[S|R]):-
+    E=:=H,
+    subs(T,E,S,R).
+subs([H|T],E,S,[H|R]):-
+    E=\=H,
+    subs(T,E,S,R).
