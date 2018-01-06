@@ -1,0 +1,146 @@
+
+ExeStack:
+print(v) v=2 
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+------------------------
+Heap:
+
+---------------------------------
+
+ExeStack:
+print(v) 
+-----------------------
+
+SymTable:
+v =2
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+------------------------
+Heap:
+
+---------------------------------
+
+ExeStack:
+
+-----------------------
+
+SymTable:
+v =2
+
+------------------------
+Out:
+  2
+------------------------
+FileTable:
+
+------------------------
+Heap:
+
+---------------------------------
+
+ExeStack:
+(Read file( var_x );Close file (var_f )) (Open file( exemplu.txt );Read file( var_c )) 
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+------------------------
+Heap:
+
+---------------------------------
+
+ExeStack:
+(Read file( var_x );Close file (var_f )) Read file( var_c ) Open file( exemplu.txt ) 
+-----------------------
+
+SymTable:
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+
+------------------------
+Heap:
+
+---------------------------------
+
+ExeStack:
+(Read file( var_x );Close file (var_f )) Read file( var_c ) 
+-----------------------
+
+SymTable:
+var_f =1
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1 =exemplu.txtjava.io.BufferedReader@568db2f2
+
+------------------------
+Heap:
+
+---------------------------------
+
+ExeStack:
+(Read file( var_x );Close file (var_f )) 
+-----------------------
+
+SymTable:
+var_f =1
+var_c =5
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1 =exemplu.txtjava.io.BufferedReader@568db2f2
+
+------------------------
+Heap:
+
+---------------------------------
+
+ExeStack:
+Close file (var_f ) Read file( var_x ) 
+-----------------------
+
+SymTable:
+var_f =1
+var_c =5
+
+------------------------
+Out:
+ 
+------------------------
+FileTable:
+1 =exemplu.txtjava.io.BufferedReader@568db2f2
+
+------------------------
+Heap:
+
+---------------------------------
