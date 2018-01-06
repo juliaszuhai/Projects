@@ -1,0 +1,47 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (TestIuliana.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Moc'ing testiuliana.h...
+  Uic'ing testiuliana.ui...
+  Moc'ing chart.h...
+  Moc'ing GUI.h...
+  Moc'ing initialization.h...
+  Moc'ing ShoppingCartView.h...
+  Rcc'ing testiuliana.qrc...
+RCC : warning : No resources in 'D:\Programming\C,C++\TrenchCoats\TestIuliana\testiuliana.qrc'.
+  
+  Uic'ing initialization.ui...
+  Uic'ing chart.ui...
+  Uic'ing ShoppingCartView.ui...
+  chart.cpp
+  Controller.cpp
+  Domain.cpp
+  FileOrder.cpp
+  moc_chart.cpp
+  moc_GUI.cpp
+  moc_initialization.cpp
+  moc_ShoppingCartView.cpp
+  moc_testiuliana.cpp
+  GUI.cpp
+  HTMLOrderFile.cpp
+  initialization.cpp
+  main.cpp
+  MyTableModel.cpp
+  Order.cpp
+  PictureDelegate.cpp
+  Repository.cpp
+  ShoppingCartView.cpp
+  SVOrder.cpp
+  testiuliana.cpp
+  Generating Code...
+d:\programming\c,c++\trenchcoats\testiuliana\repository.cpp(90): warning C4715: 'Repository::removeTrenchCoat': not all control paths return a value
+d:\programming\c,c++\trenchcoats\testiuliana\repository.cpp(111): warning C4715: 'Repository::findby': not all control paths return a value
+  Compiling...
+  UndoAction.cpp
+  UndoAdd.cpp
+  UndoRemove.cpp
+  UndoUpdate.cpp
+  Utils.cpp
+  Validator.cpp
+  Generating Code...
+  qrc_testiuliana.cpp
+  TestIuliana.vcxproj -> D:\Programming\C,C++\TrenchCoats\Win32\Debug\TrenchCoats.exe
+  TestIuliana.vcxproj -> D:\Programming\C,C++\TrenchCoats\Win32\Debug\TrenchCoats.pdb (Full PDB)
