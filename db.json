@@ -1,9 +1,8 @@
 {
-  "Clothingitems": [
+  "posts": [
     {
       "id": 1,
-      "name": "dress",
-      "status": "clean"
+      "title": "hello"
     }
   ],
   "profile": {
